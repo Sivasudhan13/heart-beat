@@ -28,7 +28,7 @@ export default function TogetherCounter({ startDate }) {
       animate={{ opacity: 1, y: 0 }}
       className="bg-pink-200 p-6 rounded-2xl shadow-lg text-center"
     >
-      <h2 className="text-xl font-bold mb-4">💍 Together Since 16/12/2018</h2>
+      <h2 className="text-xl font-bold mb-4">💍 Together Since 16/12/2020</h2>
 
       <div className="flex justify-center gap-4 flex-wrap">
         {Object.entries(time).map(([k, v]) => (
