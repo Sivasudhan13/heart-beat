@@ -11,7 +11,7 @@ export default function Home() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/love")
+    fetch("https://wmwpxm9v2t.us-east-1.awsapprunner.com/api/love")
       .then((res) => res.json())
       .then(setData)
       .catch((err) => console.error(err));
